@@ -1,0 +1,23 @@
+name: AscendNear
+version: '${project.version}'
+main: os.nivvel.ascendnear.AscendNear
+api-version: '1.16'
+author: NivvelOS
+description: Shows nearby players with directional arrows
+softdepend: [PlaceholderAPI]
+
+commands:
+  near:
+    description: Show nearby players
+    usage: /near [radius]
+    permission: ascendnear.use
+
+permissions:
+  ascendnear.use:
+    default: true
+  ascendnear.radius.unlim:
+    default: op
+  permissions:
+    ascendnear.near.hide:
+      description: Hide from /near
+      default: false
