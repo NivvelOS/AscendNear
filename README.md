@@ -44,7 +44,7 @@ messages:
   header: "<#FFD700>Nearby players within <#FFFFFF>{radius} <#FFD700>blocks:"
   no-players: "<#FF5555>No one nearby."
   player-line: "<#55FF55>* {arrow} {player} - {distance} blocks."
-  hover-text: "Click to interactpp"
+  hover-text: "Click to interact"
   click-command: "/invsee {player}"
   no-custom-radius: "<#FF5555>You need permission to use custom radius!"
   invalid-radius: "<#FF5555>Radius must be 1-1000 blocks!"
